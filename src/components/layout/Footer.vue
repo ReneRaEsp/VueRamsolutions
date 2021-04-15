@@ -26,7 +26,7 @@ export default {};
   width: 100%;
   height: auto;
   padding: 3rem;
-  background: rgba(25, 117, 94, 0.7);
+  background: rgb(25, 117, 94);
 }
 
 .footer div .logof {

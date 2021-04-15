@@ -1,11 +1,16 @@
 <template>
   <div class="portafolio">
-    <h2>Soy la vista de portafolio</h2>
+    <Galeria1 />
   </div>
 </template>
 
 <script>
-export default {};
+import Galeria1 from "./components/Galeria1.vue";
+export default {
+  components: {
+    Galeria1,
+  },
+};
 </script>
 
 <style></style>

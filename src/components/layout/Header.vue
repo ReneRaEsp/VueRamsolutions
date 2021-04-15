@@ -30,26 +30,26 @@
             id="navbarNavAltMarkup"
           >
             <div class="navbar-nav d-flex justify-content-between">
-              <a
+              <router-link
                 class="nav-link text-white font-weight-bold active text-center"
-                aria-current="page"
-                href="../index.html"
-                ><span class="p-2 h5">Inicio</span>
-                <i class="fas fa-house-user"></i
-              ></a>
+                to="/Inicio"
+              >
+                <span class="p-2 h5">Inicio</span>
+                <i class="fas fa-house-user"></i>
+              </router-link>
+              <router-link
+                class="nav-link text-white font-weight-bold active text-center"
+                to="/Portafolio"
+              >
+                <span class="p-2 h5">Portafolio</span>
+                <i class="fas fa-suitcase"></i>
+              </router-link>
               <a
                 class="nav-link text-white font-weight-bold text-center"
                 aria-current="page"
                 href="https://thawing-stream-87420.herokuapp.com/pcontacto/index.php"
                 ><span class="p-2 h5">Contacto</span>
                 <i class="fas fa-address-book"></i
-              ></a>
-              <a
-                class="nav-link text-white font-weight-bold text-center"
-                aria-current="page"
-                href="../pportafolio/index.html"
-                ><span class="p-2 h5">Portafolio</span>
-                <i class="fas fa-suitcase"></i
               ></a>
               <!--<a class=" nav-link text-white font-weight-bold text-center" aria-current="page" href="../ptecnologias/index.html"><span class="p-2 h5">Tecnologias</span> <i class="fas fa-microchip"></i></a>-->
               <a
