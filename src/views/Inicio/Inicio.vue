@@ -28,4 +28,9 @@ export default {
   margin: 0;
   width: 100%;
 }
+@media screen and (max-width: 450px) {
+  * {
+    font-size: 12px;
+  }
+}
 </style>
