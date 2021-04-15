@@ -87,8 +87,8 @@ export default {};
   width: 100%;
   height: auto;
   position: fixed;
-  z-index: 5;
-  background: rgba(2, 75, 105, 0.99);
+  z-index: 17;
+  background: rgba(2, 76, 105, 0.752);
 }
 .header div {
   margin-top: 0px;

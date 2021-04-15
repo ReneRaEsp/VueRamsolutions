@@ -20,13 +20,13 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 .footer {
   margin: auto;
   width: 100%;
   height: auto;
   padding: 3rem;
-  background: rgb(25, 117, 94);
+  background: rgb(16, 41, 72);
 }
 
 .footer div .logof {
