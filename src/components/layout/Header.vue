@@ -4,7 +4,7 @@
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid d-flex justify-content-between p-3">
           <a
-            class="borde col-10 col-sm-5 col-md-3 p-1 m-auto d-flex justify-content-center bg-white rounded"
+            class="borde col-7 col-sm-5 col-md-3 p-1 m-auto d-flex justify-content-center bg-white rounded"
             href="index.html"
           >
             <img

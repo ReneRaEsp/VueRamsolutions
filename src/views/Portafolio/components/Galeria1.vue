@@ -1,9 +1,9 @@
 <template>
   <section class="seccion1">
-    <section class="tituloP row mt-4">
+    <section class="tituloP row mt-5">
       <section class="col-12 mt-3 d-flex justify-content-center">
         <p
-          class="titulo h2 text-center p-2 col-12 col-sm-3 col-md-2 rounded font-weight-bold"
+          class="titulo h2 text-center p-2 col-12 col-sm-3 col-md-2 rounded font-weight-bold d-flex justify-content-center align-content-center"
         >
           Portafolio <i class="fas fa-suitcase"></i>
         </p>
@@ -175,9 +175,18 @@ export default {};
 </script>
 
 <style scoped>
+@media screen and (max-width: 400px) {
+  * {
+    font-size: 14px;
+  }
+  .seccion1 {
+    padding: 1rem;
+    padding-top: 20.5rem;
+  }
+}
 .seccion1 {
-  padding-top: 6.5rem;
-  padding: 5rem;
+  padding-top: 8.5rem;
+  padding: 4rem;
   background: url("./../../../assets/img/fondo2.jpg");
   overflow: hidden;
   background-attachment: fixed;
